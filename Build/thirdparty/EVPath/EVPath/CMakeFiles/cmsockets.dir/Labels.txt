@@ -1,0 +1,5 @@
+# Directory labels
+ EVPath
+# Source files and their labels
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/cmsockets.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/ip_config.c

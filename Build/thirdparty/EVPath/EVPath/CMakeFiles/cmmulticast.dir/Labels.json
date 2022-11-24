@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/cmmulticast.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EVPath"
+		],
+		"name" : "cmmulticast"
+	}
+}

@@ -1,0 +1,1884 @@
+The system is: Linux - 5.15.0-41-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f7da9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f7da9.dir/build.make CMakeFiles/cmTC_f7da9.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7da9.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_f7da9.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7da9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f7da9.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f7da9.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cczoHJXV.s
+GNU C17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3f6cb05d963ad324b8f9442822c95179
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7da9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f7da9.dir/'
+ as -v --64 -o CMakeFiles/cmTC_f7da9.dir/CMakeCCompilerABI.c.o /tmp/cczoHJXV.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7da9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f7da9.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_f7da9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7da9.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_f7da9.dir/CMakeCCompilerABI.c.o -o cmTC_f7da9 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f7da9' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f7da9.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7dsDYK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f7da9 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_f7da9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f7da9' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f7da9.'
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f7da9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f7da9.dir/build.make CMakeFiles/cmTC_f7da9.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f7da9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_f7da9.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7da9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f7da9.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f7da9.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cczoHJXV.s]
+  ignore line: [GNU C17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3f6cb05d963ad324b8f9442822c95179]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7da9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f7da9.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_f7da9.dir/CMakeCCompilerABI.c.o /tmp/cczoHJXV.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7da9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f7da9.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_f7da9]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7da9.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_f7da9.dir/CMakeCCompilerABI.c.o -o cmTC_f7da9 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f7da9' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f7da9.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7dsDYK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f7da9 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_f7da9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc7dsDYK.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f7da9] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_f7da9.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_edcf3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_edcf3.dir/build.make CMakeFiles/cmTC_edcf3.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_edcf3.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_edcf3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edcf3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_edcf3.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_edcf3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccoA0heG.s
+GNU C++17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/11
+ /usr/include/x86_64-linux-gnu/c++/11
+ /usr/include/c++/11/backward
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 449548cbb29044828dc7ea158b577b98
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edcf3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_edcf3.dir/'
+ as -v --64 -o CMakeFiles/cmTC_edcf3.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccoA0heG.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edcf3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_edcf3.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_edcf3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edcf3.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_edcf3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_edcf3 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_edcf3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_edcf3.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfiXJdl.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_edcf3 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_edcf3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_edcf3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_edcf3.'
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/11]
+    add: [/usr/include/x86_64-linux-gnu/c++/11]
+    add: [/usr/include/c++/11/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+  collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_edcf3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_edcf3.dir/build.make CMakeFiles/cmTC_edcf3.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_edcf3.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_edcf3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edcf3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_edcf3.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_edcf3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccoA0heG.s]
+  ignore line: [GNU C++17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/11]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 449548cbb29044828dc7ea158b577b98]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edcf3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_edcf3.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_edcf3.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccoA0heG.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edcf3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_edcf3.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_edcf3]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edcf3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_edcf3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_edcf3 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_edcf3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_edcf3.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfiXJdl.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_edcf3 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_edcf3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccfiXJdl.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_edcf3] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_edcf3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e599c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e599c.dir/build.make CMakeFiles/cmTC_e599c.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e599c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_e599c.dir/CheckIncludeFile.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e599c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e599c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e599c.dir/CheckIncludeFile.c.o -o cmTC_e599c 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_58718/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_58718.dir/build.make CMakeFiles/cmTC_58718.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58718.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu99 -o CMakeFiles/cmTC_58718.dir/src.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_58718
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58718.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_58718.dir/src.c.o -o cmTC_58718 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Looking for a Fortran compiler passed with the following output:
+-- The Fortran compiler identification is GNU 11.3.0
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Check for working Fortran compiler: /usr/bin/f95 - skipped
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CheckFortran
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /usr/bin/f95 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+Driving: /usr/bin/f95 -v CMakeFortranCompilerId.F -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/f95
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'a-'
+ /usr/lib/gcc/x86_64-linux-gnu/11/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccIh1XUT.f90 -quiet -v -imultiarch x86_64-linux-gnu CMakeFortranCompilerId.F -quiet -dumpdir a- -dumpbase CMakeFortranCompilerId.F -dumpbase-ext .F -mtune=generic -march=x86-64 -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-linux-gnu/11/finclude -fpre-include=/usr/include/finclude/math-vector-fortran.h -o /tmp/ccUpKP1E.s
+GNU Fortran (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/finclude
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU Fortran2008 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'a-'
+ as -v --64 -o /tmp/ccYj9eLU.o /tmp/ccUpKP1E.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/11/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'a-'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'a.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccG49Yz5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. /tmp/ccYj9eLU.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'a.'
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/3.22.1/CompilerIdFortran/a.out"
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_14075/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_14075.dir/build.make CMakeFiles/cmTC_14075.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.o
+/usr/bin/f95   -v -c /usr/share/cmake-3.22/Modules/CMakeFortranCompilerABI.F90 -o CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.o
+Using built-in specs.
+COLLECT_GCC=/usr/bin/f95
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_14075.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/f951 /usr/share/cmake-3.22/Modules/CMakeFortranCompilerABI.F90 -cpp=/tmp/ccNCbfhM.f90 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeFortranCompilerABI.F90 -quiet -dumpdir CMakeFiles/cmTC_14075.dir/ -dumpbase CMakeFortranCompilerABI.F90.F90 -dumpbase-ext .F90 -mtune=generic -march=x86-64 -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-linux-gnu/11/finclude -fpre-include=/usr/include/finclude/math-vector-fortran.h -o /tmp/cchI6BYA.s
+GNU Fortran (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/finclude
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU Fortran2008 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_14075.dir/'
+ as -v --64 -o CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.o /tmp/cchI6BYA.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.'
+Linking Fortran executable cmTC_14075
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14075.dir/link.txt --verbose=1
+/usr/bin/f95  -v CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.o -o cmTC_14075 
+Driving: /usr/bin/f95 -v CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.o -o cmTC_14075 -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/f95
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/11/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_14075' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_14075-'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_14075' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_14075.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccApMdKf.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_14075 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_14075' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_14075.'
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed Fortran implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/finclude]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/finclude] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/finclude]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/finclude;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_14075/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_14075.dir/build.make CMakeFiles/cmTC_14075.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.o]
+  ignore line: [/usr/bin/f95   -v -c /usr/share/cmake-3.22/Modules/CMakeFortranCompilerABI.F90 -o CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/f95]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_14075.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/f951 /usr/share/cmake-3.22/Modules/CMakeFortranCompilerABI.F90 -cpp=/tmp/ccNCbfhM.f90 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeFortranCompilerABI.F90 -quiet -dumpdir CMakeFiles/cmTC_14075.dir/ -dumpbase CMakeFortranCompilerABI.F90.F90 -dumpbase-ext .F90 -mtune=generic -march=x86-64 -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-linux-gnu/11/finclude -fpre-include=/usr/include/finclude/math-vector-fortran.h -o /tmp/cchI6BYA.s]
+  ignore line: [GNU Fortran (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/finclude]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU Fortran2008 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_14075.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.o /tmp/cchI6BYA.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.']
+  ignore line: [Linking Fortran executable cmTC_14075]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14075.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/f95  -v CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.o -o cmTC_14075 ]
+  ignore line: [Driving: /usr/bin/f95 -v CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.o -o cmTC_14075 -l gfortran -l m -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/f95]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) ]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/11/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_14075' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_14075-']
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_14075' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_14075.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccApMdKf.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_14075 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccApMdKf.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_14075] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_14075.dir/CMakeFortranCompilerABI.F90.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gfortran;m;gcc_s;gcc;quadmath;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing Fortran SOURCE FILE Test ADIOS2_HAVE_FORTRAN_F03_ARGS succeeded with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bb0ce/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bb0ce.dir/build.make CMakeFiles/cmTC_bb0ce.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_bb0ce.dir/src.F90.o
+/usr/bin/f95 -DADIOS2_HAVE_FORTRAN_F03_ARGS   -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/src.F90 -o CMakeFiles/cmTC_bb0ce.dir/src.F90.o
+Linking Fortran executable cmTC_bb0ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb0ce.dir/link.txt --verbose=1
+/usr/bin/f95 CMakeFiles/cmTC_bb0ce.dir/src.F90.o -o cmTC_bb0ce 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    program testargs
+      integer :: n
+      character(len=256) :: v
+      n = command_argument_count()
+      call get_command_argument(0, v)
+    end program testargs
+Performing Fortran SOURCE FILE Test ADIOS2_HAVE_FORTRAN_GNU_ARGS succeeded with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_144dc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_144dc.dir/build.make CMakeFiles/cmTC_144dc.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_144dc.dir/src.F90.o
+/usr/bin/f95 -DADIOS2_HAVE_FORTRAN_GNU_ARGS   -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/src.F90 -o CMakeFiles/cmTC_144dc.dir/src.F90.o
+Linking Fortran executable cmTC_144dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_144dc.dir/link.txt --verbose=1
+/usr/bin/f95 CMakeFiles/cmTC_144dc.dir/src.F90.o -o cmTC_144dc 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    program testargs
+      integer :: n
+      character(len=256) :: v
+      n = iargc()
+      call getarg(0, v)
+    end program testargs
+Determining if the shmget exist passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f3ca3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f3ca3.dir/build.make CMakeFiles/cmTC_f3ca3.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3ca3.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_f3ca3.dir/CheckSymbolExists.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f3ca3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3ca3.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f3ca3.dir/CheckSymbolExists.c.o -o cmTC_f3ca3 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+File /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ipc.h>
+#include <sys/shm.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef shmget
+  return ((int*)(&shmget))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing Fortran SOURCE FILE Test ADIOS2_USE_Fortran_flag_argument_mismatch succeeded with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5b89c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5b89c.dir/build.make CMakeFiles/cmTC_5b89c.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_5b89c.dir/src.F90.o
+/usr/bin/f95 -DADIOS2_USE_Fortran_flag_argument_mismatch  -fallow-argument-mismatch -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/src.F90 -o CMakeFiles/cmTC_5b89c.dir/src.F90.o
+Linking Fortran executable cmTC_5b89c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b89c.dir/link.txt --verbose=1
+/usr/bin/f95 CMakeFiles/cmTC_5b89c.dir/src.F90.o -o cmTC_5b89c 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+       program test
+       stop
+       end program
+Performing C++ SOURCE FILE Test O_DIRECT_WORKS succeeded with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_55dad/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_55dad.dir/build.make CMakeFiles/cmTC_55dad.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_55dad.dir/src.cxx.o
+/usr/bin/c++ -DO_DIRECT_WORKS  -std=c++11 -o CMakeFiles/cmTC_55dad.dir/src.cxx.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_55dad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55dad.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_55dad.dir/src.cxx.o -o cmTC_55dad 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <unistd.h>
+#include <fcntl.h>
+int main(int argc, char * argv[]) { argc = O_DIRECT; }
+
+Checking whether wstring is available compiled with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_17693/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_17693.dir/build.make CMakeFiles/cmTC_17693.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_17693.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_STL_HAS_WSTRING  -w  -std=c++11 -o CMakeFiles/cmTC_17693.dir/kwsysPlatformTestsCXX.cxx.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/KWSys/adios2sys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_17693
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17693.dir/link.txt --verbose=1
+/usr/bin/c++  -w  -rdynamic CMakeFiles/cmTC_17693.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_17693 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp'
+
+
+
+Checking whether C compiler has ptrdiff_t in stddef.h compiled with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3e38f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3e38f.dir/build.make CMakeFiles/cmTC_3e38f.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e38f.dir/kwsysPlatformTestsC.c.o
+/usr/bin/cc -DTEST_KWSYS_C_HAS_PTRDIFF_T  -w  -std=gnu99 -o CMakeFiles/cmTC_3e38f.dir/kwsysPlatformTestsC.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/KWSys/adios2sys/kwsysPlatformTestsC.c
+Linking C executable cmTC_3e38f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e38f.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_3e38f.dir/kwsysPlatformTestsC.c.o -o cmTC_3e38f 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp'
+
+
+
+Checking whether C compiler has ssize_t in unistd.h compiled with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c4222/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c4222.dir/build.make CMakeFiles/cmTC_c4222.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4222.dir/kwsysPlatformTestsC.c.o
+/usr/bin/cc -DTEST_KWSYS_C_HAS_SSIZE_T  -w  -std=gnu99 -o CMakeFiles/cmTC_c4222.dir/kwsysPlatformTestsC.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/KWSys/adios2sys/kwsysPlatformTestsC.c
+Linking C executable cmTC_c4222
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4222.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_c4222.dir/kwsysPlatformTestsC.c.o -o cmTC_c4222 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp'
+
+
+
+Checking whether CXX compiler has setenv compiled with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_119af/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_119af.dir/build.make CMakeFiles/cmTC_119af.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_119af.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_SETENV  -w  -std=c++11 -o CMakeFiles/cmTC_119af.dir/kwsysPlatformTestsCXX.cxx.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/KWSys/adios2sys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_119af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_119af.dir/link.txt --verbose=1
+/usr/bin/c++  -w  -rdynamic CMakeFiles/cmTC_119af.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_119af 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp'
+
+
+
+Checking whether CXX compiler has unsetenv compiled with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ccdcd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ccdcd.dir/build.make CMakeFiles/cmTC_ccdcd.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ccdcd.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_UNSETENV  -w  -std=c++11 -o CMakeFiles/cmTC_ccdcd.dir/kwsysPlatformTestsCXX.cxx.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/KWSys/adios2sys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_ccdcd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccdcd.dir/link.txt --verbose=1
+/usr/bin/c++  -w  -rdynamic CMakeFiles/cmTC_ccdcd.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_ccdcd 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp'
+
+
+
+Checking whether CXX compiler has utimes compiled with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9b9f0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9b9f0.dir/build.make CMakeFiles/cmTC_9b9f0.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9b9f0.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_UTIMES  -w  -std=c++11 -o CMakeFiles/cmTC_9b9f0.dir/kwsysPlatformTestsCXX.cxx.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/KWSys/adios2sys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_9b9f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b9f0.dir/link.txt --verbose=1
+/usr/bin/c++  -w  -rdynamic CMakeFiles/cmTC_9b9f0.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_9b9f0 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp'
+
+
+
+Checking whether CXX compiler has utimensat compiled with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_36dcd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_36dcd.dir/build.make CMakeFiles/cmTC_36dcd.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_36dcd.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_UTIMENSAT  -w  -std=c++11 -o CMakeFiles/cmTC_36dcd.dir/kwsysPlatformTestsCXX.cxx.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/KWSys/adios2sys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_36dcd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36dcd.dir/link.txt --verbose=1
+/usr/bin/c++  -w  -rdynamic CMakeFiles/cmTC_36dcd.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_36dcd 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp'
+
+
+
+Checking whether CXX compiler struct stat has st_mtim member compiled with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7d4dd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7d4dd.dir/build.make CMakeFiles/cmTC_7d4dd.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7d4dd.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_CXX_STAT_HAS_ST_MTIM  -w  -std=c++11 -o CMakeFiles/cmTC_7d4dd.dir/kwsysPlatformTestsCXX.cxx.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/KWSys/adios2sys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_7d4dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d4dd.dir/link.txt --verbose=1
+/usr/bin/c++  -w  -rdynamic CMakeFiles/cmTC_7d4dd.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_7d4dd 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp'
+
+
+
+Checking whether <ext/stdio_filebuf.h> is available compiled with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5fe56/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5fe56.dir/build.make CMakeFiles/cmTC_5fe56.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5fe56.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_EXT_STDIO_FILEBUF_H  -w  -std=c++11 -o CMakeFiles/cmTC_5fe56.dir/kwsysPlatformTestsCXX.cxx.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/KWSys/adios2sys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_5fe56
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fe56.dir/link.txt --verbose=1
+/usr/bin/c++  -w  -rdynamic CMakeFiles/cmTC_5fe56.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_5fe56 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/thirdparty/KWSys/adios2sys/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7a15b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7a15b.dir/build.make CMakeFiles/cmTC_7a15b.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a15b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_7a15b.dir/CheckIncludeFile.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7a15b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a15b.dir/link.txt --verbose=1
+/usr/bin/cc  -w  CMakeFiles/cmTC_7a15b.dir/CheckIncludeFile.c.o -o cmTC_7a15b 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6627b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6627b.dir/build.make CMakeFiles/cmTC_6627b.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6627b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_6627b.dir/CheckIncludeFile.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6627b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6627b.dir/link.txt --verbose=1
+/usr/bin/cc  -w  CMakeFiles/cmTC_6627b.dir/CheckIncludeFile.c.o -o cmTC_6627b 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aa6b3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aa6b3.dir/build.make CMakeFiles/cmTC_aa6b3.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa6b3.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_aa6b3.dir/CheckIncludeFile.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_aa6b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa6b3.dir/link.txt --verbose=1
+/usr/bin/cc  -w  CMakeFiles/cmTC_aa6b3.dir/CheckIncludeFile.c.o -o cmTC_aa6b3 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of double passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_51a0a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_51a0a.dir/build.make CMakeFiles/cmTC_51a0a.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51a0a.dir/SIZEOF_DOUBLE.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_51a0a.dir/SIZEOF_DOUBLE.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CheckTypeSize/SIZEOF_DOUBLE.c
+Linking C executable cmTC_51a0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51a0a.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_51a0a.dir/SIZEOF_DOUBLE.c.o -o cmTC_51a0a 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of float passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2e4f9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2e4f9.dir/build.make CMakeFiles/cmTC_2e4f9.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e4f9.dir/SIZEOF_FLOAT.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_2e4f9.dir/SIZEOF_FLOAT.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CheckTypeSize/SIZEOF_FLOAT.c
+Linking C executable cmTC_2e4f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e4f9.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_2e4f9.dir/SIZEOF_FLOAT.c.o -o cmTC_2e4f9 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0517f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0517f.dir/build.make CMakeFiles/cmTC_0517f.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0517f.dir/SIZEOF_INT.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_0517f.dir/SIZEOF_INT.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+Linking C executable cmTC_0517f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0517f.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_0517f.dir/SIZEOF_INT.c.o -o cmTC_0517f 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dcb57/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dcb57.dir/build.make CMakeFiles/cmTC_dcb57.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dcb57.dir/SIZEOF_SHORT.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_dcb57.dir/SIZEOF_SHORT.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CheckTypeSize/SIZEOF_SHORT.c
+Linking C executable cmTC_dcb57
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcb57.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_dcb57.dir/SIZEOF_SHORT.c.o -o cmTC_dcb57 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ee103/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ee103.dir/build.make CMakeFiles/cmTC_ee103.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee103.dir/HAVE_MALLOC_H.c.o
+/usr/bin/cc   -w  -o CMakeFiles/cmTC_ee103.dir/HAVE_MALLOC_H.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CheckIncludeFiles/HAVE_MALLOC_H.c
+Linking C executable cmTC_ee103
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee103.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_ee103.dir/HAVE_MALLOC_H.c.o -o cmTC_ee103 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_85956/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_85956.dir/build.make CMakeFiles/cmTC_85956.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85956.dir/HAVE_UNISTD_H.c.o
+/usr/bin/cc   -w  -o CMakeFiles/cmTC_85956.dir/HAVE_UNISTD_H.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CheckIncludeFiles/HAVE_UNISTD_H.c
+Linking C executable cmTC_85956
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85956.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_85956.dir/HAVE_UNISTD_H.c.o -o cmTC_85956 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a21ae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a21ae.dir/build.make CMakeFiles/cmTC_a21ae.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a21ae.dir/HAVE_STDLIB_H.c.o
+/usr/bin/cc   -w  -o CMakeFiles/cmTC_a21ae.dir/HAVE_STDLIB_H.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CheckIncludeFiles/HAVE_STDLIB_H.c
+Linking C executable cmTC_a21ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a21ae.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_a21ae.dir/HAVE_STDLIB_H.c.o -o cmTC_a21ae 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f5d48/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f5d48.dir/build.make CMakeFiles/cmTC_f5d48.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5d48.dir/HAVE_STRING_H.c.o
+/usr/bin/cc   -w  -o CMakeFiles/cmTC_f5d48.dir/HAVE_STRING_H.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CheckIncludeFiles/HAVE_STRING_H.c
+Linking C executable cmTC_f5d48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5d48.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_f5d48.dir/HAVE_STRING_H.c.o -o cmTC_f5d48 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_df359/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_df359.dir/build.make CMakeFiles/cmTC_df359.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df359.dir/HAVE_SYS_TIME_H.c.o
+/usr/bin/cc   -w  -o CMakeFiles/cmTC_df359.dir/HAVE_SYS_TIME_H.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TIME_H.c
+Linking C executable cmTC_df359
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df359.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_df359.dir/HAVE_SYS_TIME_H.c.o -o cmTC_df359 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the fork exist passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_796a0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_796a0.dir/build.make CMakeFiles/cmTC_796a0.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_796a0.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_796a0.dir/CheckSymbolExists.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_796a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_796a0.dir/link.txt --verbose=1
+/usr/bin/cc  -w  CMakeFiles/cmTC_796a0.dir/CheckSymbolExists.c.o -o cmTC_796a0 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+File /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fork
+  return ((int*)(&fork))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining size of void* passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_60ca2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_60ca2.dir/build.make CMakeFiles/cmTC_60ca2.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60ca2.dir/CMAKE_SIZEOF_VOID_P.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_60ca2.dir/CMAKE_SIZEOF_VOID_P.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_VOID_P.c
+Linking C executable cmTC_60ca2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60ca2.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_60ca2.dir/CMAKE_SIZEOF_VOID_P.c.o -o cmTC_60ca2 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3c22a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3c22a.dir/build.make CMakeFiles/cmTC_3c22a.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c22a.dir/SIZEOF_LONG.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_3c22a.dir/SIZEOF_LONG.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTC_3c22a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c22a.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_3c22a.dir/SIZEOF_LONG.c.o -o cmTC_3c22a 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdarg.h exist passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_129c7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_129c7.dir/build.make CMakeFiles/cmTC_129c7.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_129c7.dir/STDC_HEADERS.c.o
+/usr/bin/cc   -w  -o CMakeFiles/cmTC_129c7.dir/STDC_HEADERS.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CheckIncludeFiles/STDC_HEADERS.c
+Linking C executable cmTC_129c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_129c7.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_129c7.dir/STDC_HEADERS.c.o -o cmTC_129c7 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_452e8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_452e8.dir/build.make CMakeFiles/cmTC_452e8.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_452e8.dir/HAVE_MEMORY_H.c.o
+/usr/bin/cc   -w  -o CMakeFiles/cmTC_452e8.dir/HAVE_MEMORY_H.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CheckIncludeFiles/HAVE_MEMORY_H.c
+Linking C executable cmTC_452e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_452e8.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_452e8.dir/HAVE_MEMORY_H.c.o -o cmTC_452e8 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/mman.h exist passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4ec38/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4ec38.dir/build.make CMakeFiles/cmTC_4ec38.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ec38.dir/HAVE_SYS_MMAN_H.c.o
+/usr/bin/cc   -w  -o CMakeFiles/cmTC_4ec38.dir/HAVE_SYS_MMAN_H.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_MMAN_H.c
+Linking C executable cmTC_4ec38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ec38.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_4ec38.dir/HAVE_SYS_MMAN_H.c.o -o cmTC_4ec38 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_14855/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_14855.dir/build.make CMakeFiles/cmTC_14855.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14855.dir/SIZEOF_OFF_T.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_14855.dir/SIZEOF_OFF_T.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
+Linking C executable cmTC_14855
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14855.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_14855.dir/SIZEOF_OFF_T.c.o -o cmTC_14855 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long double passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a8467/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a8467.dir/build.make CMakeFiles/cmTC_a8467.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8467.dir/SIZEOF_LONG_DOUBLE.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_a8467.dir/SIZEOF_LONG_DOUBLE.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CheckTypeSize/SIZEOF_LONG_DOUBLE.c
+Linking C executable cmTC_a8467
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8467.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_a8467.dir/SIZEOF_LONG_DOUBLE.c.o -o cmTC_a8467 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e747d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e747d.dir/build.make CMakeFiles/cmTC_e747d.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e747d.dir/SIZEOF_LONG_LONG.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_e747d.dir/SIZEOF_LONG_LONG.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c
+Linking C executable cmTC_e747d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e747d.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_e747d.dir/SIZEOF_LONG_LONG.c.o -o cmTC_e747d 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_803ff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_803ff.dir/build.make CMakeFiles/cmTC_803ff.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_803ff.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_803ff.dir/SIZEOF_SIZE_T.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_803ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_803ff.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_803ff.dir/SIZEOF_SIZE_T.c.o -o cmTC_803ff 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function socket exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_54a9c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_54a9c.dir/build.make CMakeFiles/cmTC_54a9c.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54a9c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -DCHECK_FUNCTION_EXISTS=socket -o CMakeFiles/cmTC_54a9c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_54a9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54a9c.dir/link.txt --verbose=1
+/usr/bin/cc  -w -DCHECK_FUNCTION_EXISTS=socket -rdynamic CMakeFiles/cmTC_54a9c.dir/CheckFunctionExists.c.o -o cmTC_54a9c 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file netdb.h exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3420e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3420e.dir/build.make CMakeFiles/cmTC_3420e.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3420e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_3420e.dir/CheckIncludeFile.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3420e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3420e.dir/link.txt --verbose=1
+/usr/bin/cc  -w  CMakeFiles/cmTC_3420e.dir/CheckIncludeFile.c.o -o cmTC_3420e 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/select.h exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5dc44/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5dc44.dir/build.make CMakeFiles/cmTC_5dc44.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5dc44.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_5dc44.dir/CheckIncludeFile.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5dc44
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dc44.dir/link.txt --verbose=1
+/usr/bin/cc  -w  CMakeFiles/cmTC_5dc44.dir/CheckIncludeFile.c.o -o cmTC_5dc44 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/socket.h exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_23a6a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_23a6a.dir/build.make CMakeFiles/cmTC_23a6a.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23a6a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_23a6a.dir/CheckIncludeFile.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_23a6a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23a6a.dir/link.txt --verbose=1
+/usr/bin/cc  -w  CMakeFiles/cmTC_23a6a.dir/CheckIncludeFile.c.o -o cmTC_23a6a 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/times.h exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c67e7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c67e7.dir/build.make CMakeFiles/cmTC_c67e7.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c67e7.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_c67e7.dir/CheckIncludeFile.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c67e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c67e7.dir/link.txt --verbose=1
+/usr/bin/cc  -w  CMakeFiles/cmTC_c67e7.dir/CheckIncludeFile.c.o -o cmTC_c67e7 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/uio.h exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_af27a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_af27a.dir/build.make CMakeFiles/cmTC_af27a.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af27a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_af27a.dir/CheckIncludeFile.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_af27a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af27a.dir/link.txt --verbose=1
+/usr/bin/cc  -w  CMakeFiles/cmTC_af27a.dir/CheckIncludeFile.c.o -o cmTC_af27a 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/un.h exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_19e68/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_19e68.dir/build.make CMakeFiles/cmTC_19e68.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19e68.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_19e68.dir/CheckIncludeFile.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_19e68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19e68.dir/link.txt --verbose=1
+/usr/bin/cc  -w  CMakeFiles/cmTC_19e68.dir/CheckIncludeFile.c.o -o cmTC_19e68 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strtof exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1abf6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1abf6.dir/build.make CMakeFiles/cmTC_1abf6.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1abf6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -DCHECK_FUNCTION_EXISTS=strtof -o CMakeFiles/cmTC_1abf6.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1abf6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1abf6.dir/link.txt --verbose=1
+/usr/bin/cc  -w -DCHECK_FUNCTION_EXISTS=strtof -rdynamic CMakeFiles/cmTC_1abf6.dir/CheckFunctionExists.c.o -o cmTC_1abf6 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strtod exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_43105/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_43105.dir/build.make CMakeFiles/cmTC_43105.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43105.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -DCHECK_FUNCTION_EXISTS=strtod -o CMakeFiles/cmTC_43105.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_43105
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43105.dir/link.txt --verbose=1
+/usr/bin/cc  -w -DCHECK_FUNCTION_EXISTS=strtod -rdynamic CMakeFiles/cmTC_43105.dir/CheckFunctionExists.c.o -o cmTC_43105 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strtold exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_35d8c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_35d8c.dir/build.make CMakeFiles/cmTC_35d8c.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35d8c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -DCHECK_FUNCTION_EXISTS=strtold -o CMakeFiles/cmTC_35d8c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_35d8c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35d8c.dir/link.txt --verbose=1
+/usr/bin/cc  -w -DCHECK_FUNCTION_EXISTS=strtold -rdynamic CMakeFiles/cmTC_35d8c.dir/CheckFunctionExists.c.o -o cmTC_35d8c 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getdomainname exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dfc95/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dfc95.dir/build.make CMakeFiles/cmTC_dfc95.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfc95.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -DCHECK_FUNCTION_EXISTS=getdomainname -o CMakeFiles/cmTC_dfc95.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dfc95
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfc95.dir/link.txt --verbose=1
+/usr/bin/cc  -w -DCHECK_FUNCTION_EXISTS=getdomainname -rdynamic CMakeFiles/cmTC_dfc95.dir/CheckFunctionExists.c.o -o cmTC_dfc95 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of struct iovec passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2450d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2450d.dir/build.make CMakeFiles/cmTC_2450d.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2450d.dir/IOVEC_DEFINE.c.o
+/usr/bin/cc   -w  -std=gnu99 -o CMakeFiles/cmTC_2450d.dir/IOVEC_DEFINE.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CheckTypeSize/IOVEC_DEFINE.c
+Linking C executable cmTC_2450d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2450d.dir/link.txt --verbose=1
+/usr/bin/cc  -w  -rdynamic CMakeFiles/cmTC_2450d.dir/IOVEC_DEFINE.c.o -o cmTC_2450d 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAS_IOV_BASE_IOVEC succeeded with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_28658/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_28658.dir/build.make CMakeFiles/cmTC_28658.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28658.dir/src.c.o
+/usr/bin/cc -DHAS_IOV_BASE_IOVEC  -w  -std=gnu99 -o CMakeFiles/cmTC_28658.dir/src.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_28658
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28658.dir/link.txt --verbose=1
+/usr/bin/cc  -w  CMakeFiles/cmTC_28658.dir/src.c.o -o cmTC_28658 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/uio.h>
+
+int main()
+{
+  (void)sizeof(((struct iovec *)0)->iov_base);
+  return 0;
+}
+
+Determining if the function getaddrinfo exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b41e9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b41e9.dir/build.make CMakeFiles/cmTC_b41e9.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b41e9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -DCHECK_FUNCTION_EXISTS=getaddrinfo -o CMakeFiles/cmTC_b41e9.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b41e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b41e9.dir/link.txt --verbose=1
+/usr/bin/cc  -w -DCHECK_FUNCTION_EXISTS=getaddrinfo -rdynamic CMakeFiles/cmTC_b41e9.dir/CheckFunctionExists.c.o -o cmTC_b41e9 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getnameinfo exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_55e00/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_55e00.dir/build.make CMakeFiles/cmTC_55e00.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55e00.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -DCHECK_FUNCTION_EXISTS=getnameinfo -o CMakeFiles/cmTC_55e00.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_55e00
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55e00.dir/link.txt --verbose=1
+/usr/bin/cc  -w -DCHECK_FUNCTION_EXISTS=getnameinfo -rdynamic CMakeFiles/cmTC_55e00.dir/CheckFunctionExists.c.o -o cmTC_55e00 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gethostbyaddr_r exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8121a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8121a.dir/build.make CMakeFiles/cmTC_8121a.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8121a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r -o CMakeFiles/cmTC_8121a.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8121a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8121a.dir/link.txt --verbose=1
+/usr/bin/cc  -w -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r -rdynamic CMakeFiles/cmTC_8121a.dir/CheckFunctionExists.c.o -o cmTC_8121a 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gethostbyname_r exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_163ce/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_163ce.dir/build.make CMakeFiles/cmTC_163ce.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_163ce.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -DCHECK_FUNCTION_EXISTS=gethostbyname_r -o CMakeFiles/cmTC_163ce.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_163ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_163ce.dir/link.txt --verbose=1
+/usr/bin/cc  -w -DCHECK_FUNCTION_EXISTS=gethostbyname_r -rdynamic CMakeFiles/cmTC_163ce.dir/CheckFunctionExists.c.o -o cmTC_163ce 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7d865/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7d865.dir/build.make CMakeFiles/cmTC_7d865.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d865.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -DCHECK_FUNCTION_EXISTS=poll -o CMakeFiles/cmTC_7d865.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7d865
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d865.dir/link.txt --verbose=1
+/usr/bin/cc  -w -DCHECK_FUNCTION_EXISTS=poll -rdynamic CMakeFiles/cmTC_7d865.dir/CheckFunctionExists.c.o -o cmTC_7d865 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b39c0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b39c0.dir/build.make CMakeFiles/cmTC_b39c0.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b39c0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -DCHECK_FUNCTION_EXISTS=fcntl -o CMakeFiles/cmTC_b39c0.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b39c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b39c0.dir/link.txt --verbose=1
+/usr/bin/cc  -w -DCHECK_FUNCTION_EXISTS=fcntl -rdynamic CMakeFiles/cmTC_b39c0.dir/CheckFunctionExists.c.o -o cmTC_b39c0 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function inet_pton exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fe76a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fe76a.dir/build.make CMakeFiles/cmTC_fe76a.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe76a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -DCHECK_FUNCTION_EXISTS=inet_pton -o CMakeFiles/cmTC_fe76a.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fe76a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe76a.dir/link.txt --verbose=1
+/usr/bin/cc  -w -DCHECK_FUNCTION_EXISTS=inet_pton -rdynamic CMakeFiles/cmTC_fe76a.dir/CheckFunctionExists.c.o -o cmTC_fe76a 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function inet_ntop exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ef2a4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ef2a4.dir/build.make CMakeFiles/cmTC_ef2a4.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef2a4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -DCHECK_FUNCTION_EXISTS=inet_ntop -o CMakeFiles/cmTC_ef2a4.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ef2a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef2a4.dir/link.txt --verbose=1
+/usr/bin/cc  -w -DCHECK_FUNCTION_EXISTS=inet_ntop -rdynamic CMakeFiles/cmTC_ef2a4.dir/CheckFunctionExists.c.o -o cmTC_ef2a4 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAS_MSGHDR_FLAGS succeeded with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e82aa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e82aa.dir/build.make CMakeFiles/cmTC_e82aa.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e82aa.dir/src.c.o
+/usr/bin/cc -DHAS_MSGHDR_FLAGS  -w  -std=gnu99 -o CMakeFiles/cmTC_e82aa.dir/src.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e82aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e82aa.dir/link.txt --verbose=1
+/usr/bin/cc  -w  CMakeFiles/cmTC_e82aa.dir/src.c.o -o cmTC_e82aa 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/socket.h>
+
+int main()
+{
+  (void)sizeof(((struct msghdr *)0)->msg_flags);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAS_SOCKLEN_T succeeded with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0e476/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0e476.dir/build.make CMakeFiles/cmTC_0e476.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e476.dir/src.c.o
+/usr/bin/cc -DHAS_SOCKLEN_T  -w  -std=gnu99 -o CMakeFiles/cmTC_0e476.dir/src.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0e476
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e476.dir/link.txt --verbose=1
+/usr/bin/cc  -w  CMakeFiles/cmTC_0e476.dir/src.c.o -o cmTC_0e476 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <sys/socket.h>
+int main() { return sizeof(socklen_t); } 
+Performing C SOURCE FILE Test HAVE_LIBM_MATH succeeded with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6d518/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6d518.dir/build.make CMakeFiles/cmTC_6d518.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d518.dir/src.c.o
+/usr/bin/cc -DHAVE_LIBM_MATH  -w -Wall  -O0 -std=gnu99 -o CMakeFiles/cmTC_6d518.dir/src.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6d518
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d518.dir/link.txt --verbose=1
+/usr/bin/cc  -w -Wall  -O0 CMakeFiles/cmTC_6d518.dir/src.c.o -o cmTC_6d518  -lm 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include<math.h>
+float f; int main(){sqrt(f);return 0;}
+Determining if the clock_gettime exist passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3ed2a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3ed2a.dir/build.make CMakeFiles/cmTC_3ed2a.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ed2a.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -w -Wall  -O0 -std=gnu99 -o CMakeFiles/cmTC_3ed2a.dir/CheckSymbolExists.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3ed2a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ed2a.dir/link.txt --verbose=1
+/usr/bin/cc  -w -Wall  -O0 CMakeFiles/cmTC_3ed2a.dir/CheckSymbolExists.c.o -o cmTC_3ed2a 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+File /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef clock_gettime
+  return ((int*)(&clock_gettime))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file sys/epoll.h exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6e1a2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6e1a2.dir/build.make CMakeFiles/cmTC_6e1a2.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e1a2.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -w -Wall  -O0 -std=gnu99 -o CMakeFiles/cmTC_6e1a2.dir/CheckIncludeFile.c.o -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6e1a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e1a2.dir/link.txt --verbose=1
+/usr/bin/cc  -w -Wall  -O0 CMakeFiles/cmTC_6e1a2.dir/CheckIncludeFile.c.o -o cmTC_6e1a2 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function writev exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_67cda/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_67cda.dir/build.make CMakeFiles/cmTC_67cda.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67cda.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -Wall  -DCHECK_FUNCTION_EXISTS=writev -O0 -o CMakeFiles/cmTC_67cda.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_67cda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67cda.dir/link.txt --verbose=1
+/usr/bin/cc  -w -Wall  -DCHECK_FUNCTION_EXISTS=writev -O0 -rdynamic CMakeFiles/cmTC_67cda.dir/CheckFunctionExists.c.o -o cmTC_67cda 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function uname exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1788b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1788b.dir/build.make CMakeFiles/cmTC_1788b.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1788b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -Wall  -DCHECK_FUNCTION_EXISTS=uname -O0 -o CMakeFiles/cmTC_1788b.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1788b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1788b.dir/link.txt --verbose=1
+/usr/bin/cc  -w -Wall  -DCHECK_FUNCTION_EXISTS=uname -O0 -rdynamic CMakeFiles/cmTC_1788b.dir/CheckFunctionExists.c.o -o cmTC_1788b 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getloadavg exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b128f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b128f.dir/build.make CMakeFiles/cmTC_b128f.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b128f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -Wall  -DCHECK_FUNCTION_EXISTS=getloadavg -O0 -o CMakeFiles/cmTC_b128f.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b128f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b128f.dir/link.txt --verbose=1
+/usr/bin/cc  -w -Wall  -DCHECK_FUNCTION_EXISTS=getloadavg -O0 -rdynamic CMakeFiles/cmTC_b128f.dir/CheckFunctionExists.c.o -o cmTC_b128f 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bd34f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bd34f.dir/build.make CMakeFiles/cmTC_bd34f.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd34f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -Wall  -DCHECK_FUNCTION_EXISTS=gettimeofday -O0 -o CMakeFiles/cmTC_bd34f.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bd34f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd34f.dir/link.txt --verbose=1
+/usr/bin/cc  -w -Wall  -DCHECK_FUNCTION_EXISTS=gettimeofday -O0 -rdynamic CMakeFiles/cmTC_bd34f.dir/CheckFunctionExists.c.o -o cmTC_bd34f 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getifaddrs exists passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_67ce8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_67ce8.dir/build.make CMakeFiles/cmTC_67ce8.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67ce8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -Wall  -DCHECK_FUNCTION_EXISTS=getifaddrs -O0 -o CMakeFiles/cmTC_67ce8.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_67ce8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67ce8.dir/link.txt --verbose=1
+/usr/bin/cc  -w -Wall  -DCHECK_FUNCTION_EXISTS=getifaddrs -O0 -rdynamic CMakeFiles/cmTC_67ce8.dir/CheckFunctionExists.c.o -o cmTC_67ce8 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+
+Verifying Fortran/CXX Compiler Compatibility passed with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX
+
+Run Build Command(s):/usr/bin/gmake -f Makefile VerifyFortranC && /usr/bin/cmake -S/usr/share/cmake-3.22/Modules/FortranCInterface/Verify -B/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/gmake  -f CMakeFiles/Makefile2 VerifyFortranC
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX'
+/usr/bin/cmake -S/usr/share/cmake-3.22/Modules/FortranCInterface/Verify -B/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles 6
+/usr/bin/gmake  -f CMakeFiles/Makefile2 CMakeFiles/VerifyFortranC.dir/all
+gmake[2]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX'
+/usr/bin/gmake  -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/depend
+gmake[3]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX'
+cd /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/share/cmake-3.22/Modules/FortranCInterface/Verify /usr/share/cmake-3.22/Modules/FortranCInterface/Verify /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/VerifyFortran.dir/DependInfo.cmake
+Scanning dependencies of target VerifyFortran
+gmake[3]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX'
+/usr/bin/gmake  -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/build
+gmake[3]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX'
+[ 16%] Building Fortran object CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+/usr/bin/f95 -DVERIFY_CXX -I/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX -O3 -DNDEBUG -O3 -c /usr/share/cmake-3.22/Modules/FortranCInterface/Verify/VerifyFortran.f -o CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+[ 33%] Linking Fortran static library libVerifyFortran.a
+/usr/bin/cmake -P CMakeFiles/VerifyFortran.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/VerifyFortran.dir/link.txt --verbose=1
+/usr/bin/ar qc libVerifyFortran.a CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+/usr/bin/ranlib libVerifyFortran.a
+gmake[3]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX'
+[ 33%] Built target VerifyFortran
+/usr/bin/gmake  -f CMakeFiles/VerifyFortranC.dir/build.make CMakeFiles/VerifyFortranC.dir/depend
+gmake[3]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX'
+cd /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/share/cmake-3.22/Modules/FortranCInterface/Verify /usr/share/cmake-3.22/Modules/FortranCInterface/Verify /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/VerifyFortranC.dir/DependInfo.cmake
+Scanning dependencies of target VerifyFortranC
+gmake[3]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX'
+/usr/bin/gmake  -f CMakeFiles/VerifyFortranC.dir/build.make CMakeFiles/VerifyFortranC.dir/build
+gmake[3]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX'
+[ 50%] Building C object CMakeFiles/VerifyFortranC.dir/main.c.o
+/usr/bin/cc -DVERIFY_CXX -I/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX -O3 -DNDEBUG -o CMakeFiles/VerifyFortranC.dir/main.c.o -c /usr/share/cmake-3.22/Modules/FortranCInterface/Verify/main.c
+[ 66%] Building C object CMakeFiles/VerifyFortranC.dir/VerifyC.c.o
+/usr/bin/cc -DVERIFY_CXX -I/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX -O3 -DNDEBUG -o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o -c /usr/share/cmake-3.22/Modules/FortranCInterface/Verify/VerifyC.c
+[ 83%] Building CXX object CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o
+/usr/bin/c++ -DVERIFY_CXX -I/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX -O3 -DNDEBUG -o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o -c /usr/share/cmake-3.22/Modules/FortranCInterface/Verify/VerifyCXX.cxx
+[100%] Linking CXX executable VerifyFortranC
+/usr/bin/cmake -E cmake_link_script CMakeFiles/VerifyFortranC.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/VerifyFortranC.dir/main.c.o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o -o VerifyFortranC  libVerifyFortran.a -lgfortran -lquadmath 
+gmake[3]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX'
+[100%] Built target VerifyFortranC
+gmake[2]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX'
+/usr/bin/cmake -E cmake_progress_start /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles 0
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/FortranCInterface/VerifyCXX'
+
+
+
+Performing Fortran SOURCE FILE Test ADIOS2_HAVE_FORTRAN_SUBMODULES succeeded with the following output:
+Change Dir: /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a19ba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a19ba.dir/build.make CMakeFiles/cmTC_a19ba.dir/build
+gmake[1]: Entering directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_a19ba.dir/src.F90.o
+/usr/bin/f95 -DADIOS2_HAVE_FORTRAN_SUBMODULES  -O3 -DNDEBUG -O3 -c /home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/CMakeFiles/CMakeTmp/src.F90 -o CMakeFiles/cmTC_a19ba.dir/src.F90.o
+Linking Fortran executable cmTC_a19ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a19ba.dir/link.txt --verbose=1
+/usr/bin/f95 -O3 -DNDEBUG -O3 CMakeFiles/cmTC_a19ba.dir/src.F90.o -o cmTC_a19ba 
+gmake[1]: Leaving directory '/home/quinlan/snap/snapd-desktop-integration/14/lab_work/Build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+module foo
+  interface bar
+    module subroutine bar_integer(x)
+      integer, intent(in) :: x
+    end subroutine
+    module subroutine bar_real(x)
+      real, intent(in) :: x
+    end subroutine
+  end interface
+end module
+submodule ( foo ) sub
+contains
+  module subroutine bar_integer(x)
+    integer, intent(in) :: x
+  end subroutine
+  module subroutine bar_real(x)
+    real, intent(in) :: x
+  end subroutine
+end submodule
+program main
+end program
+

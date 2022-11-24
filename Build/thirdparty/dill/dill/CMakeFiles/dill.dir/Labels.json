@@ -1,0 +1,52 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/dill/dill/dill_util.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/dill/dill/dill_pkg.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/dill/dill/dill_cplus.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/dill/dill/dill_virtual.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/dill/dill/virtual.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/dill/dill/dill.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/dill/dill/vm.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/dill/dill/dill_x86_64.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/dill/dill/x86_64.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/dill/dill/x86_64_rt.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/dill/dill/dill_virtual.c.rule"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/dill/dill/dill.h.rule"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/dill/dill/dill_x86_64.c.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"DILL"
+		],
+		"name" : "dill"
+	}
+}

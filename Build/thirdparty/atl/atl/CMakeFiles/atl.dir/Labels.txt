@@ -1,0 +1,7 @@
+# Directory labels
+ ATL
+# Source files and their labels
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/atl/atl/atom.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/atl/atl/attr.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/atl/atl/lookup3.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/atl/atl/tclHash.c

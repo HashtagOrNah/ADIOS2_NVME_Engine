@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/ffs/ffs/CMakeFiles/docs"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/ffs/ffs/CMakeFiles/docs.rule"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/ffs/ffs/cod_node.c.rule"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/ffs/ffs/lex.yy.c.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"FFS"
+		],
+		"name" : "docs"
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/atl/atl/atom.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/atl/atl/attr.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/atl/atl/lookup3.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/atl/atl/tclHash.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ATL"
+		],
+		"name" : "atl"
+	}
+}

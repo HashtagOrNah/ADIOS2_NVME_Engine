@@ -1,0 +1,16 @@
+# Directory labels
+ DILL
+# Source files and their labels
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/dill/dill/dill_util.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/dill/dill/dill_pkg.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/dill/dill/dill_cplus.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/dill/dill/dill_virtual.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/dill/dill/virtual.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/dill/dill/dill.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/dill/dill/vm.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/dill/dill/dill_x86_64.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/dill/dill/x86_64.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/dill/dill/x86_64_rt.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/dill/dill/dill_virtual.c.rule
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/dill/dill/dill.h.rule
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/dill/dill/dill_x86_64.c.rule

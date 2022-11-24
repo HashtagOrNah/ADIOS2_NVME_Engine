@@ -1,0 +1,3 @@
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/build_test/CMakeFiles/EngTest.dir
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/build_test/CMakeFiles/edit_cache.dir
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/build_test/CMakeFiles/rebuild_cache.dir

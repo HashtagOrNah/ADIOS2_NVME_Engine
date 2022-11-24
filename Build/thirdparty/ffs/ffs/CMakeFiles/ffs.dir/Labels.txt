@@ -1,0 +1,27 @@
+# Directory labels
+ FFS
+# Source files and their labels
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/ffs/ffs/ffs/ffs.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/ffs/ffs/ffs/ffs_formats.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/ffs/ffs/ffs/ffs_conv.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/ffs/ffs/ffs/ffs_gen.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/ffs/ffs/ffs/ffs_file.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/ffs/ffs/ffs/unix_io.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/ffs/ffs/ffs/evol.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/ffs/ffs/ffs/ffs_marshal.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/ffs/ffs/version.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/ffs/ffs/fm/fm_formats.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/ffs/ffs/fm/fm_dump.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/ffs/ffs/fm/lookup3.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/ffs/ffs/fm/string_conversion.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/ffs/ffs/fm/fm_get.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/ffs/ffs/fm/xml.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/ffs/ffs/fm/server_acts.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/ffs/ffs/fm/unix_io.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/ffs/ffs/cod/cg.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/ffs/ffs/cod/standard.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/ffs/ffs/cod.tab.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/ffs/ffs/cod_node.c
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/ffs/ffs/cod.tab.c.rule
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/ffs/ffs/cod_node.c.rule
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/ffs/ffs/lex.yy.c.rule

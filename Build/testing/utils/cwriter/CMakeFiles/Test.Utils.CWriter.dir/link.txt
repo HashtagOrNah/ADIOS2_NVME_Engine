@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/Test.Utils.CWriter.dir/TestUtilsCWriter.c.o -o ../../../bin/Test.Utils.CWriter  -Wl,-rpath,/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/lib ../../../lib/libadios2_c.so.2.8.3 -Wl,-rpath-link,/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/lib 

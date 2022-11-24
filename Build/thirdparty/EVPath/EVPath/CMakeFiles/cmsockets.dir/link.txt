@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC  -w -Wall  -O3 -DNDEBUG -shared  -o lib/libadios2_cmsockets.so CMakeFiles/cmsockets.dir/cmsockets.c.o CMakeFiles/cmsockets.dir/ip_config.c.o  -Wl,-rpath,/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/lib: ../../../lib/libadios2_atl.so.2.2.1 

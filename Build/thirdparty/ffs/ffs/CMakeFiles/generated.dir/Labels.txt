@@ -1,0 +1,8 @@
+# Directory labels
+ FFS
+# Source files and their labels
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/ffs/ffs/CMakeFiles/generated
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/ffs/ffs/CMakeFiles/generated.rule
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/ffs/ffs/cod.tab.c.rule
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/ffs/ffs/cod_node.c.rule
+/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/ffs/ffs/lex.yy.c.rule

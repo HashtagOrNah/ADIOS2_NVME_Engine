@@ -1,0 +1,85 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/cm.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/cm_control.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/cm_formats.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/cm_util.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/cm_transport.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/cm_lock.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/cm_perf.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/cm_pbio.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/EVPath/EVPath/cm_interface.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/version.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/cm_threadio.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/cm_evol.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/evp.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/response.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/metrics.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/dlloader.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/ip_config.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/chr_time.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/EVPath/EVPath/revp.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/evp_compat.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/thin_server.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/evp_threads.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/ev_dfg.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/thirdparty/EVPath/EVPath/cm_interface.c.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EVPath"
+		],
+		"name" : "EVPath"
+	}
+}

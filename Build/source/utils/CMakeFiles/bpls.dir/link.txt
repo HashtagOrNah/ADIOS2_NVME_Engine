@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/bpls.dir/bpls/bpls.cpp.o CMakeFiles/bpls.dir/__/__/thirdparty/pugixml/pugixml/src/pugixml.cpp.o -o ../../bin/bpls  -Wl,-rpath,/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/lib: ../../lib/libadios2_core.so.2.8.3 -ldl -Wl,-rpath-link,/home/quinlan/snap/snapd-desktop-integration/current/lab_work/Build/lib 

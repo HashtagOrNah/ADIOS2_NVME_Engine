@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/cmenet.c"
+		},
+		{
+			"file" : "/home/quinlan/snap/snapd-desktop-integration/current/lab_work/ADIOS2/thirdparty/EVPath/EVPath/ip_config.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EVPath"
+		],
+		"name" : "cmenet"
+	}
+}
